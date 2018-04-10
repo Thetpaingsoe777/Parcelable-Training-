@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="n.com.toturial.parcelable.MainActivity">
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/etname"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        in
+        />
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Address"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/etemail"
+        android:paddingTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/etaddress"
+        android:paddingTop="20dp"
+        />
+
+
+
+
+</RelativeLayout>
+</ScrollView>
